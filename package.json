@@ -1,0 +1,22 @@
+{
+  "name": "design-pattern-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirhossein-karimi/design-pattern-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirhossein-karimi/design-pattern-typescript/issues"
+  },
+  "homepage": "https://github.com/amirhossein-karimi/design-pattern-typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
