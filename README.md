@@ -1,9 +1,18 @@
 # design-pattern-typescript
 
-to install dependency
+## to install dependencies
+```sh
+npm install 
+```
 
--- npm install
+## build the project watching for changes
+```sh
+npm run watch 
+```
 
-to build project
+## run the project
+```sh
+node dist/your-file-name.js
+```
 
--- npm run build
+
