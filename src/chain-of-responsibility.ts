@@ -2,7 +2,7 @@ abstract class Account {
 
     protected successor!: Account;
 
-    protected ballance!: number;;
+    protected ballance!: number;
 
     private name!: string;
 
@@ -17,12 +17,19 @@ abstract class Account {
 
     public pay(amount: number): void {
         if (this.canPay(amount)) {
+
             console.log(`your ${this.name} account has ${this.ballance} \n`);
+
             this.ballance -= amount;
+
             console.log(`Paid ${amount} with : ${this.name} - your ${this.name} ballance is ${this.ballance} \n`);
+
         } else {
+
             console.log(`your ${this.name} account has ${this.ballance} \n`);
+
             console.log(`Cannot pay ${amount} with : ${this.name} \n`);
+
             if (this.successor) {
                 this.successor.pay(amount);
             }
